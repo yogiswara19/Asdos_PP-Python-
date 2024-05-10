@@ -66,7 +66,7 @@ match menu:
             # cek jumlah
             if jumlah>7:
                 total = total-310000
-        
+
         elif jenis == 2:
             total = jumlah * 1910000
             bonus = "Mendapatkan bonus 2 loyang oven dan 1 rak pemanggang"
@@ -108,7 +108,7 @@ match menu:
                 total = total * 0.9
             elif member.lower() == "silver":
                 total = total * 0.95
-            
+
             # cek jumlah
             if jumlah>7:
                 total = total-420000
@@ -123,7 +123,7 @@ match menu:
                 total = total * 0.9
             elif member.lower() == "silver":
                 total = total * 0.95
-            
+
             # cek jumlah
             if jumlah>7:
                 total = total-970000
@@ -138,15 +138,15 @@ match menu:
                 total = total * 0.9
             elif member.lower() == "silver":
                 total = total * 0.95
-            
+
             # cek jumlah
             if jumlah>7:
                 total = total-1100000
-    
+
     case 0:
         input("Program selesai. . .")
         exit()
-                
+
     case _:
         input(f"Tidak ada pilihan {menu} dalam menu")
         exit()
