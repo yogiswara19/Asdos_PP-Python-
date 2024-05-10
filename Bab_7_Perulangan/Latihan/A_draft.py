@@ -51,13 +51,3 @@ print(f"Jumlah bilangan ganjil : {ganjil}")
 print(f"Jumlah bilangan genap  : {genap}")
 
 input()
-
-# coba = {
-#     1:1,
-#     2:2
-# }
-# # print(coba.keys())
-# tes = int(input("Angka: "))
-# if tes not in coba.keys():
-#     print("error pak")
-#     exit()
