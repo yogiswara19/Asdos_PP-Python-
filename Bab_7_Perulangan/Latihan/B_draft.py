@@ -51,4 +51,4 @@ print("="*32)
 print(f"Jumlah bilangan ganjil : {ganjil}")
 print(f"Jumlah bilangan genap  : {genap}")
 
-print()
+input()

@@ -50,7 +50,7 @@ print("="*34)
 print(f"Jumlah bilangan ganjil : {ganjil}")
 print(f"Jumlah bilangan genap  : {genap}")
 
-print()
+input()
 
 # coba = {
 #     1:1,
