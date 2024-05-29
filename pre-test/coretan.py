@@ -20,6 +20,5 @@ class Kucing:
         print(f"Meow!, Kucing ini berwarna {self.warna} dan berusia {self.usia} tahun")
 
 kucing_kesayangan = Kucing(warna="putih", usia=1)
-
 kucing_kesayangan.bersuara()
 
